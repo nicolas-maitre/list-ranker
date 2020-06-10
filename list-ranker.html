@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="list-ranker.css"/>
+    </head>
+    <body>
+        <h1>List Ranker</h1>
+        <section id="enterListSection">
+            <form id="newEntryForm">
+                <input type="text" id="newEntryInput" required/>
+                <button type="submit">&gt;</button>
+            </form>
+            <div id="newEntriesList"></div>
+            <!-- <button disabled id="showRankSectionBtn">Rank!</button> -->
+            <button disabled id="showRankSectionBtn">Rank!</button>
+        </section>
+        <section id="rankSection" class="none">
+            <p><span id="progressDisplay">...</span> out of <span id="totalDisplay">...</span></p>
+            <div>
+                <button id="choiceA">...</button>
+                <button id="choiceB">...</button>
+            </div>
+            <div id="listPreview"></div>
+        </section>
+        <section id="resultSection" class="none">
+            <h2>Results</h2>
+            <div id="resultsList"></div>
+            <button id="restartBtn">Restart</button>
+        </section>
+        <script src="list-ranker.js"></script>
+    </body>
+</html>

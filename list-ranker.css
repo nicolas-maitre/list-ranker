@@ -1,0 +1,10 @@
+.none{
+    display: none!important;
+}
+#choiceA, #choiceB{
+    width: 300px;
+    height: 200px;
+}
+button{
+    cursor: pointer;
+}
